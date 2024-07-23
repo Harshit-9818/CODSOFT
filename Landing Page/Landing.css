@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    background-image: url(Web-development-concept-with-person-using-a-laptop-computer.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: aquamarine;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-image: url(halftone-background-with-circles_23-2148907689.avif);
+    background-size: 85%;
+    background-position: center;
+    color: blue;
+    padding: 5px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: blueviolet;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+#home div {
+    background-image: url(abstract-digital-grid-black-background_53876-97647.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+#about div {
+    background-image: url(abstract-digital-grid-black-background_53876-97647.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+#services div {
+    background-image: url(abstract-digital-grid-black-background_53876-97647.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact div {
+    background-image: url(abstract-digital-grid-black-background_53876-97647.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section Styles */
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    margin-top: 0;
+    color: gold;
+}
+section h3 {
+    color: dodgerblue;
+}
+section p {
+    color: blueviolet;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 2px 0;
+}
